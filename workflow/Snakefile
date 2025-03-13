@@ -1,0 +1,33 @@
+from snakemake.utils import min_version
+from pathlib import Path
+import os
+
+# Ensure minimum Snakemake version
+min_version("7.0.0")
+
+configfile: 'config.yaml'
+include: 'rules/reads.smk'
+include: 'rules/inserts.smk'
+
+outdir = Path(config['outdir'])
+barcode5 = config['barcode5']
+barcode3 = config['barcode3']
+
+samples, = glob_wildcards(outdir / str("raw/{sample,[^/]+}.fastq"))
+samples = samples[0]
+
+rule all:
+    input:
+        expand(rules.extract_inserts.output.inserts, sample=samples, outdir=outdir),
+        expand(rules.qc_inserts.output.json, sample=samples, outdir=outdir),
+        expand(rules.fq_to_fa.output.fasta, sample=samples, outdir=outdir),
+        expand(rules.get_genomic_inserts.output.bam, sample=samples, outdir=outdir),
+        expand(rules.feature_overlap.output.bed, sample=samples, outdir=outdir),
+
+rule clean:
+    input:
+        expand(rules.extract_inserts.output.inserts, sample=samples, outdir=outdir),
+        expand(rules.qc_inserts.output.json, sample=samples, outdir=outdir),
+        expand(rules.fq_to_fa.output.fasta, sample=samples, outdir=outdir),
+    shell:
+        "rm -rf {input}"

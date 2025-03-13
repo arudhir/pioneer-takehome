@@ -1,0 +1,19 @@
+This is cutadapt 5.0 with Python 3.11.9
+Command line parameters: -g CTGTCTCTTATACACCGACAATCTCCAAGACATTAGGTG...GGCACAATCCTATTCCGCGCTATCGTGTATAAGAGACAG -e 0.1 -m 100 --info-file=output/inserts/YCZ4B8_3_m.S.00175.fastq.info -o output/inserts/YCZ4B8_3_m.S.00175.fastq output/raw/YCZ4B8_3_m.S.00175.fastq
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                      50
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads that were too short:                   0 (0.0%)
+Reads written (passing filters):            50 (100.0%)
+
+Total basepairs processed:       182,194 bp
+Total written (filtered):        182,194 bp (100.0%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATACACCGACAATCTCCAAGACATTAGGTG...GGCACAATCCTATTCCGCGCTATCGTGTATAAGAGACAG; Type: linked; Length: 39+39; 5' trimmed: 0 times; 3' trimmed: 0 times

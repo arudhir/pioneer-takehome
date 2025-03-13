@@ -1,0 +1,46 @@
+This is cutadapt 5.0 with Python 3.11.9
+Command line parameters: -g CTGTCTCTTATACACCGACAATCTCCAAGACATTAGGTG...GGCACAATCCTATTCCGCGCTATCGTGTATAAGAGACAG -e 0.1 -m 100 --info-file=output/inserts/YCZ4B8_8_m.S.00195.fastq.info -o output/inserts/YCZ4B8_8_m.S.00195.fastq output/raw/YCZ4B8_8_m.S.00195.fastq
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:                      38
+Reads with adapters:                         6 (15.8%)
+
+== Read fate breakdown ==
+Reads that were too short:                   0 (0.0%)
+Reads written (passing filters):            38 (100.0%)
+
+Total basepairs processed:       202,597 bp
+Total written (filtered):        188,450 bp (93.0%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATACACCGACAATCTCCAAGACATTAGGTG...GGCACAATCCTATTCCGCGCTATCGTGTATAAGAGACAG; Type: linked; Length: 39+39; 5' trimmed: 6 times; 3' trimmed: 6 times
+
+Minimum overlap: 3+3
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3
+
+Overview of removed sequences at 5' end
+length	count	expect	max.err	error counts
+6	1	0.0	0	1
+170	1	0.0	3	1
+1165	1	0.0	3	1
+1803	1	0.0	3	1
+1844	1	0.0	3	0 1
+2088	1	0.0	3	1
+
+
+
+Overview of removed sequences at 3' end
+length	count	expect	max.err	error counts
+399	1	0.0	3	0 1
+678	1	0.0	3	1
+691	1	0.0	3	1
+1346	1	0.0	3	1
+1779	1	0.0	3	0 0 1
+2178	1	0.0	3	1

@@ -1,5 +1,11 @@
-outdir: 'outputs'
+outdir: 'output'
 ref_genome: 'refs/GCF_000196875.2/GCF_000196875.2_ASM19687v2_genomic.fna'
-gff: 'refs/GCF_000196875.2/genome.gff'
+gff: 'refs/GCF_000196875.2/genomic.gff'
+
+barcode5: 'CTGTCTCTTATACACCGACAATCTCCAAGACATTAGGTG'
+barcode3: 'GGCACAATCCTATTCCGCGCTATCGTGTATAAGAGACAG'
+
+cutadapt_error_rate: '0.1'
+cutadapt_min_length: '100'
 
 minimap2_preset: 'asm5'
