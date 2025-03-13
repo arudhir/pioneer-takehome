@@ -92,6 +92,8 @@ The pipeline generates several visualization files to help interpret the results
 
 1. **Overlap Summary Plots** - Located in `output/report/`, these show the distribution of genomic features overlapping with inserts for each sample (e.g., `sample_id.overlaps_summary.png`) and aggregated across all samples (`all_overlaps_summary.png`).
 
+   ![All Samples Overlap Summary](output/report/all_overlaps_summary.png)
+
 2. **Sample Comparison** - The `output/report/sample_comparison.png` plot shows comparative analysis of insertion patterns across different samples.
 
 3. **CDS Analysis** - The `output/report/cds_analysis.png` visualizes how inserts interact with coding sequences in the genome.
