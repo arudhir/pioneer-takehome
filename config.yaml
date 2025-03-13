@@ -1,0 +1,5 @@
+outdir: 'outputs'
+ref_genome: 'refs/GCF_000196875.2/GCF_000196875.2_ASM19687v2_genomic.fna'
+gff: 'refs/GCF_000196875.2/genome.gff'
+
+minimap2_preset: 'asm5'
