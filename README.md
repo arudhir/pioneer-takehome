@@ -85,3 +85,18 @@ The GFF analysis script can be run separately:
 ```bash
 uv run python gff_analysis.py
 ```
+
+## Interpreting Results
+
+The pipeline generates several visualization files to help interpret the results:
+
+1. **Overlap Summary Plots** - Located in `output/report/`, these show the distribution of genomic features overlapping with inserts for each sample (e.g., `sample_id.overlaps_summary.png`) and aggregated across all samples (`all_overlaps_summary.png`).
+
+2. **Sample Comparison** - The `output/report/sample_comparison.png` plot shows comparative analysis of insertion patterns across different samples.
+
+3. **CDS Analysis** - The `output/report/cds_analysis.png` visualizes how inserts interact with coding sequences in the genome.
+
+Detailed CSV files with raw data are available in the `output/report/` directory for further analysis:
+- Individual sample overlap data: `sample_id.overlaps_overlaps.csv`
+- Combined overlap data: `all_overlaps.csv`
+- CDS-specific analysis: `genomic_cds.csv`
