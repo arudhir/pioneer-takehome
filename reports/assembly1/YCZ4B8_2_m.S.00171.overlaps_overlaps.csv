@@ -1,0 +1,65 @@
+read_name,chrom,start,end,strand,gff_start,gff_end,gff_strand,product,overlap_bp,sample
+7_YCZ4B8_2,NC_014532.2,257058,258047,+,256703,257476,-,FCD domain-containing protein,418,YCZ4B8_2_m.S.00171.overlaps
+7_YCZ4B8_2,NC_014532.2,257058,258047,+,257783,258937,+,FMN-dependent L-lactate dehydrogenase LldD,265,YCZ4B8_2_m.S.00171.overlaps
+18_YCZ4B8_2,NC_014532.2,264062,265244,+,265061,266044,+,biotin--[acetyl-CoA-carboxylase] ligase,184,YCZ4B8_2_m.S.00171.overlaps
+60_YCZ4B8_2,NC_014532.2,464064,464765,+,463853,464377,-,YgjV family protein,313,YCZ4B8_2_m.S.00171.overlaps
+60_YCZ4B8_2,NC_014532.2,464064,464765,+,464438,466087,-,acyl-CoA dehydrogenase family protein,328,YCZ4B8_2_m.S.00171.overlaps
+90_YCZ4B8_2,NC_014532.2,498760,499266,+,498685,499608,-,LysR family transcriptional regulator,506,YCZ4B8_2_m.S.00171.overlaps
+2_YCZ4B8_2,NC_014532.2,529530,529952,-,528150,529904,+,type I secretion system permease/ATPase,374,YCZ4B8_2_m.S.00171.overlaps
+69_YCZ4B8_2,NC_014532.2,576002,576462,+,575940,577274,-,TRAP transporter large permease,460,YCZ4B8_2_m.S.00171.overlaps
+95_YCZ4B8_2,NC_014532.2,590776,592509,+,590864,591811,-,LysR family transcriptional regulator,948,YCZ4B8_2_m.S.00171.overlaps
+95_YCZ4B8_2,NC_014532.2,590776,592509,+,591971,593470,+,CoA-acylating methylmalonate-semialdehyde dehydrogenase,539,YCZ4B8_2_m.S.00171.overlaps
+55_YCZ4B8_2,NC_014532.2,614973,615866,-,614523,615416,+,LysR substrate-binding domain-containing protein,443,YCZ4B8_2_m.S.00171.overlaps
+55_YCZ4B8_2,NC_014532.2,614973,615866,-,615480,616439,+,LysR family transcriptional regulator,387,YCZ4B8_2_m.S.00171.overlaps
+5_YCZ4B8_2,NC_014532.2,719057,720326,-,718404,719906,-,tripartite tricarboxylate transporter permease,849,YCZ4B8_2_m.S.00171.overlaps
+5_YCZ4B8_2,NC_014532.2,719057,720326,-,719920,720366,-,tripartite tricarboxylate transporter TctB family protein,407,YCZ4B8_2_m.S.00171.overlaps
+71_YCZ4B8_2,NC_014532.2,720329,721223,-,719920,720366,-,tripartite tricarboxylate transporter TctB family protein,37,YCZ4B8_2_m.S.00171.overlaps
+71_YCZ4B8_2,NC_014532.2,720329,721223,-,720363,721349,-,tripartite tricarboxylate transporter substrate binding protein,861,YCZ4B8_2_m.S.00171.overlaps
+96_YCZ4B8_2,NC_014532.2,828164,828791,-,827990,828637,+,NUDIX domain-containing protein,473,YCZ4B8_2_m.S.00171.overlaps
+96_YCZ4B8_2,NC_014532.2,828164,828791,-,828639,829085,+,DUF1249 domain-containing protein,153,YCZ4B8_2_m.S.00171.overlaps
+92_YCZ4B8_2,NC_014532.2,869827,871273,-,870284,871864,+,BCCT family transporter,990,YCZ4B8_2_m.S.00171.overlaps
+74_YCZ4B8_2,NC_014532.2,896612,897221,-,896747,897205,+,nucleoside deaminase,459,YCZ4B8_2_m.S.00171.overlaps
+53_YCZ4B8_2,NC_014532.2,1053574,1054014,+,1053542,1054996,-,Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatB,440,YCZ4B8_2_m.S.00171.overlaps
+33_YCZ4B8_2,NC_014532.2,1251037,1251730,+,1250965,1252560,-,hypothetical protein,693,YCZ4B8_2_m.S.00171.overlaps
+4_YCZ4B8_2,NC_014532.2,1251850,1252989,-,1250965,1252560,-,hypothetical protein,710,YCZ4B8_2_m.S.00171.overlaps
+4_YCZ4B8_2,NC_014532.2,1251850,1252989,-,1252560,1253150,-,terminase small subunit,430,YCZ4B8_2_m.S.00171.overlaps
+103_YCZ4B8_2,NC_014532.2,1327811,1328205,+,1328017,1328343,-,hypothetical protein,189,YCZ4B8_2_m.S.00171.overlaps
+8_YCZ4B8_2,NC_014532.2,1656197,1657207,+,1655218,1656240,-,imelysin family protein,43,YCZ4B8_2_m.S.00171.overlaps
+8_YCZ4B8_2,NC_014532.2,1656197,1657207,+,1656252,1657661,-,di-heme oxidoredictase family protein,956,YCZ4B8_2_m.S.00171.overlaps
+102_YCZ4B8_2,NC_014532.2,1705534,1705746,-,1705368,1706024,+,TetR/AcrR family transcriptional regulator,212,YCZ4B8_2_m.S.00171.overlaps
+88_YCZ4B8_2,NC_014532.2,1732350,1732687,+,1731274,1732416,+,ABC transporter ATP-binding protein,66,YCZ4B8_2_m.S.00171.overlaps
+88_YCZ4B8_2,NC_014532.2,1732350,1732687,+,1732426,1733103,+,HAD family phosphatase,262,YCZ4B8_2_m.S.00171.overlaps
+44_YCZ4B8_2,NC_014532.2,1763802,1765209,-,1763204,1764223,+,phenylalanine--tRNA ligase subunit alpha,421,YCZ4B8_2_m.S.00171.overlaps
+44_YCZ4B8_2,NC_014532.2,1763802,1765209,-,1764391,1766769,+,phenylalanine--tRNA ligase subunit beta,819,YCZ4B8_2_m.S.00171.overlaps
+85_YCZ4B8_2,NC_014532.2,1815303,1815702,+,1815286,1815825,+,peptidoglycan-associated lipoprotein Pal,399,YCZ4B8_2_m.S.00171.overlaps
+57_YCZ4B8_2,NC_014532.2,1948974,1949395,-,1947996,1949411,-,arginine-ornithine antiporter,421,YCZ4B8_2_m.S.00171.overlaps
+78_YCZ4B8_2,NC_014532.2,2341924,2342350,+,2341712,2342341,-,riboflavin synthase,417,YCZ4B8_2_m.S.00171.overlaps
+64_YCZ4B8_2,NC_014532.2,2462966,2464355,+,2462519,2464009,-,ATP-binding protein,1043,YCZ4B8_2_m.S.00171.overlaps
+64_YCZ4B8_2,NC_014532.2,2462966,2464355,+,2464006,2464731,-,response regulator,350,YCZ4B8_2_m.S.00171.overlaps
+30_YCZ4B8_2,NC_014532.2,2619312,2619600,+,2619173,2620186,+,CmpA/NrtA family ABC transporter substrate-binding protein,288,YCZ4B8_2_m.S.00171.overlaps
+106_YCZ4B8_2,NC_014532.2,2643035,2643477,+,2642829,2643965,+,MFS transporter,442,YCZ4B8_2_m.S.00171.overlaps
+105_YCZ4B8_2,NC_014532.2,2643035,2643474,-,2642829,2643965,+,MFS transporter,439,YCZ4B8_2_m.S.00171.overlaps
+40_YCZ4B8_2,NC_014532.2,3035622,3036317,-,3034584,3036044,+,M48 family metalloprotease,422,YCZ4B8_2_m.S.00171.overlaps
+40_YCZ4B8_2,NC_014532.2,3035622,3036317,-,3036128,3038563,-,endopeptidase La,190,YCZ4B8_2_m.S.00171.overlaps
+72_YCZ4B8_2,NC_014532.2,3077762,3078561,+,3077595,3078392,-,hypothetical protein,630,YCZ4B8_2_m.S.00171.overlaps
+72_YCZ4B8_2,NC_014532.2,3077762,3078561,+,3078438,3079166,-,C39 family peptidase,124,YCZ4B8_2_m.S.00171.overlaps
+50_YCZ4B8_2,NC_014532.2,3214882,3215284,-,3214597,3215778,-,efflux RND transporter periplasmic adaptor subunit,402,YCZ4B8_2_m.S.00171.overlaps
+50_YCZ4B8_2,NC_014532.2,3215340,3215561,-,3214597,3215778,-,efflux RND transporter periplasmic adaptor subunit,221,YCZ4B8_2_m.S.00171.overlaps
+73_YCZ4B8_2,NC_014532.2,3413074,3413493,-,3412812,3413342,-,TIGR02281 family clan AA aspartic protease,268,YCZ4B8_2_m.S.00171.overlaps
+73_YCZ4B8_2,NC_014532.2,3413074,3413493,-,3413458,3414069,+,flavin reductase family protein,36,YCZ4B8_2_m.S.00171.overlaps
+81_YCZ4B8_2,NC_014532.2,3540304,3541653,-,3539623,3540351,+,metal ABC transporter ATP-binding protein,47,YCZ4B8_2_m.S.00171.overlaps
+81_YCZ4B8_2,NC_014532.2,3540304,3541653,-,3540348,3541163,+,metal ABC transporter permease,816,YCZ4B8_2_m.S.00171.overlaps
+81_YCZ4B8_2,NC_014532.2,3540304,3541653,-,3541327,3542100,-,imidazole glycerol phosphate synthase subunit HisF,327,YCZ4B8_2_m.S.00171.overlaps
+54_YCZ4B8_2,NC_014532.2,3557109,3557502,+,3555571,3557484,+,ParB family protein,375,YCZ4B8_2_m.S.00171.overlaps
+54_YCZ4B8_2,NC_014532.2,3557109,3557502,+,3557481,3558128,+,DUF2857 domain-containing protein,22,YCZ4B8_2_m.S.00171.overlaps
+22_YCZ4B8_2,NC_014532.2,3559911,3560201,-,3559487,3559987,+,hypothetical protein,76,YCZ4B8_2_m.S.00171.overlaps
+22_YCZ4B8_2,NC_014532.2,3559911,3560201,-,3560108,3560932,+,PFL_4669 family integrating conjugative element protein,94,YCZ4B8_2_m.S.00171.overlaps
+82_YCZ4B8_2,NC_014532.2,3564041,3564487,+,3564271,3564798,+,single-stranded DNA-binding protein,217,YCZ4B8_2_m.S.00171.overlaps
+104_YCZ4B8_2,NC_014532.2,3680898,3681451,-,3680722,3681915,-,MFS transporter,553,YCZ4B8_2_m.S.00171.overlaps
+20_YCZ4B8_2,NC_014532.2,3709324,3709669,-,3709120,3709869,+,ABC transporter ATP-binding protein,345,YCZ4B8_2_m.S.00171.overlaps
+16_YCZ4B8_2,NC_014532.2,3756524,3756973,+,3756536,3756721,+,hypothetical protein,186,YCZ4B8_2_m.S.00171.overlaps
+16_YCZ4B8_2,NC_014532.2,3756524,3756973,+,3756718,3756975,+,hypothetical protein,256,YCZ4B8_2_m.S.00171.overlaps
+16_YCZ4B8_2,NC_014532.2,3756524,3756973,+,3756972,3757313,+,hypothetical protein,2,YCZ4B8_2_m.S.00171.overlaps
+109_YCZ4B8_2,NC_014532.2,3965555,3965800,-,3964773,3966830,-,DNA helicase Rep,245,YCZ4B8_2_m.S.00171.overlaps
+89_YCZ4B8_2,NC_014532.2,4006069,4006576,+,4005119,4006669,-,phosphate ABC transporter permease PstA,507,YCZ4B8_2_m.S.00171.overlaps
+83_YCZ4B8_2,NC_014532.2,4030918,4031171,-,4030652,4031719,+,HlyD family secretion protein,253,YCZ4B8_2_m.S.00171.overlaps
