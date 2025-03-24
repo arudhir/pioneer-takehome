@@ -1,10 +1,10 @@
-[M::mm_idx_gen::0.054*1.02] collected minimizers
-[M::mm_idx_gen::0.060*1.54] sorted minimizers
-[M::main::0.060*1.54] loaded/built the index for 1 target sequence(s)
-[M::mm_mapopt_update::0.063*1.51] mid_occ = 50
+[M::mm_idx_gen::0.052*1.02] collected minimizers
+[M::mm_idx_gen::0.058*1.65] sorted minimizers
+[M::main::0.058*1.65] loaded/built the index for 1 target sequence(s)
+[M::mm_mapopt_update::0.061*1.61] mid_occ = 50
 [M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 1
-[M::mm_idx_stat::0.066*1.49] distinct minimizers: 401783 (99.38% are singletons); average occurrences: 1.010; average spacing: 10.007; total length: 4061825
-[M::worker_pipeline::0.083*2.34] mapped 42 sequences
+[M::mm_idx_stat::0.064*1.59] distinct minimizers: 401783 (99.38% are singletons); average occurrences: 1.010; average spacing: 10.007; total length: 4061825
+[M::worker_pipeline::0.079*2.48] mapped 42 sequences
 [M::main] Version: 2.28-r1209
 [M::main] CMD: minimap2 -ax asm5 -t 8 refs/GCF_000196875.2/GCF_000196875.2_ASM19687v2_genomic.fna output/inserts/YCZ4B8_17_m.S.00231.fasta
-[M::main] Real time: 0.089 sec; CPU: 0.200 sec; Peak RSS: 0.122 GB
+[M::main] Real time: 0.085 sec; CPU: 0.202 sec; Peak RSS: 0.119 GB

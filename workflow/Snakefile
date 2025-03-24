@@ -10,8 +10,8 @@ include: 'rules/reads.smk'
 include: 'rules/inserts.smk'
 
 outdir = Path(config['outdir'])
-barcode5 = config['barcode5']
-barcode3 = config['barcode3']
+homology1 = config['homology1']
+homology2 = config['homology2']
 
 samples, = glob_wildcards(outdir / str("raw/{sample,[^/]+}.fastq"))
 
@@ -22,6 +22,7 @@ rule all:
         expand(rules.fq_to_fa.output.fasta, sample=samples, outdir=outdir),
         expand(rules.get_genomic_inserts.output.bam, sample=samples, outdir=outdir),
         expand(rules.feature_overlap.output.bed, sample=samples, outdir=outdir),
+	    expand(rules.find_barcodes.output.matches, sample=samples, outdir=outdir)
 
 rule clean:
     input:
@@ -30,6 +31,7 @@ rule clean:
         expand(rules.fq_to_fa.output.fasta, sample=samples, outdir=outdir),
         expand(rules.get_genomic_inserts.output.bam, sample=samples, outdir=outdir),
         expand(rules.feature_overlap.output.bed, sample=samples, outdir=outdir),
+	expand(rules.find_barcodes.output.matches, sample=samples, outdir=outdir)
 
     shell:
         "rm -rf {input}"
